@@ -1,14 +1,45 @@
+.container  {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row .col-1{width: 8.33333333%;} 
+.row .col-2{width: 16.66666667%;} 
+.row .col-3{width: 25%;} 
+.row .col-4{width: 33.33333333%;} 
+.row .col-5{width: 41.66666667%;} 
+.row .col-6{width: 50%;} 
+.row .col-7{width: 58.33333333%;} 
+.row .col-8{width: 66.66666667%;} 
+.row .col-9{width: 75%;} 
+.row .col-10{width: 83.33333333%;} 
+.row .col-11{width: 91.66666667%;} 
+.row .col-12{width: 100%;}
+.offset-5 {
+    margin-left: 41.66666667%;
+}
+
+.border {
+    border: 1px solid grey;
+    margin: 5px;
+}
+
 header{
     width: 100%;
     height: 650px;
-    background-image: url(/img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-size: cover;
 }
 header .container .col-2 a>img{
     cursor: pointer;
     margin-top: 30px;
 }
-header .container .col-8>h1{
+header .container h1{
     font-family: "Bebas Neue", "Arial, Helvetica, sans-serif";
     font-size: 47px;
     text-align: center;
@@ -16,7 +47,7 @@ header .container .col-8>h1{
     color: #FFFFFF;
     margin-top: 280px;
 }
-header .container .col-6>h2{
+h2.subtitle{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: 600;
@@ -24,15 +55,16 @@ header .container .col-6>h2{
     text-align: center;
     color: #FFFFFF;
 }
-header .container .col-2>h2{
+h2.scroll-to{
     font-family: "Open Sans", "Arial, Helvetica, sans-serif";
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 160px;
+    margin-top: 10px;
 }
+
 
 
 .menu{
